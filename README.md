@@ -1,4 +1,4 @@
-# Survey Monkey Data Analysis and Transformation
+#Survey Data Transformation and Analysis for Enhanced Reporting
 
 This project processes and analyzes survey data from a Survey Monkey export. The primary goal is to clean, transform, and restructure the data for further analysis and reporting. The process is implemented in two main stages: first, initial data cleaning and preparation within the Excel file itself, and second, further processing and analysis using a Jupyter Notebook (`data_manipulation.ipynb`).
 
