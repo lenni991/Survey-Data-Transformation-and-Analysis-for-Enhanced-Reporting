@@ -2,6 +2,12 @@
 
 This project processes and analyzes survey data from a Survey Monkey export. The primary goal is to clean, transform, and restructure the data for further analysis and reporting. The process is implemented in two main stages: first, initial data cleaning and preparation within the Excel file itself, and second, further processing and analysis using a Jupyter Notebook (`data_manipulation.ipynb`).
 
+
+*   Transformed and cleaned a raw Survey Monkey dataset of 198 responses and 100 initial features, reducing it to 13 key features, improving data quality and focus for analysis.
+*   Implemented data reshaping (wide-to-long format conversion) using Python's pandas, increasing the number of data points from 198 to 17,028, enabling granular analysis of individual responses.
+*   Integrated respondent demographics with answer data, allowing for analysis of response patterns across different demographic groups (e.g., division, position level, generation, gender, tenure).
+*   Developed a data pipeline to calculate and visualize answer frequencies, providing insights into the most common responses and potential areas of interest or concern within the survey.
+
 ## Project Workflow
 
 ### Stage 1: Excel Data Pre-processing (within "Edited Data - Survey Monkey Output.xlsx")
