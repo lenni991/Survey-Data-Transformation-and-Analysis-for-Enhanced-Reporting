@@ -1,4 +1,4 @@
-#Survey Data Transformation and Analysis for Enhanced Reporting
+# Survey Data Transformation and Analysis for Enhanced Reporting
 
 This project processes and analyzes survey data from a Survey Monkey export. The primary goal is to clean, transform, and restructure the data for further analysis and reporting. The process is implemented in two main stages: first, initial data cleaning and preparation within the Excel file itself, and second, further processing and analysis using a Jupyter Notebook (`data_manipulation.ipynb`).
 
@@ -38,7 +38,7 @@ Before any Python code is used, the raw Survey Monkey output file (`"Edited Data
     *   The shortened question texts are created in new columns (e.g., "Question", "Subquestion").
 
 6.  **Copying Shortened Questions to "Edited_data" Sheet:** The shortened question names from the "Question" sheet are copied and *transposed* (pasted as columns) into the header row of the "Edited_data" sheet, replacing the original long question strings.
-
+---------
 ### Stage 2: Jupyter Notebook Processing (`data_manipulation.ipynb`)
 
 The `data_manipulation.ipynb` notebook performs the following steps, building upon the pre-processed data from Stage 1:
@@ -106,4 +106,8 @@ The `data_manipulation.ipynb` notebook performs the following steps, building up
 10. **Final Output:**
     *   Creates a copy of final output.
     *   Saves the final processed DataFrame (`output`) to a new Excel file named `"final_output_survey_monkey.xlsx"`. The `index=False` argument prevents the DataFrame index from being written to the file.
+-----
 
+## TL;DR
+
+This project cleans and transforms Survey Monkey data for analysis.  First, the raw Excel file is manually prepared: a copy is made, unnecessary columns are removed, long questions are extracted to a separate sheet, combined questions are split, and question text is shortened. Then, a Jupyter Notebook uses Python (with pandas) to melt the data (wide to long format), merge it with the extracted question text, calculate answer frequencies, and save the processed data to a new Excel file. 
