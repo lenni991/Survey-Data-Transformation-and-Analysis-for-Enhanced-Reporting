@@ -8,7 +8,7 @@ This project processes and analyzes survey data from a Survey Monkey export. The
 *   Integrated respondent demographics with answer data, allowing for analysis of response patterns across different demographic groups (e.g., division, position level, generation, gender, tenure).
 *   Developed a data pipeline to calculate and visualize answer frequencies, providing insights into the most common responses and potential areas of interest or concern within the survey.
 
-## Project Workflow
+## Project Workflow:
 
 ### Stage 1: Excel Data Pre-processing (within "Edited Data - Survey Monkey Output.xlsx")
 
