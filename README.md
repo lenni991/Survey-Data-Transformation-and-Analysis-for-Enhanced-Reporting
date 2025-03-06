@@ -45,8 +45,6 @@ The `data_manipulation.ipynb` notebook performs the following steps, building up
 
 1.  **Import Libraries:**
     *   Imports `pandas` for data manipulation.
-    *   Imports `matplotlib.pyplot` for potential visualization (although visualization isn't heavily used in the provided code).
-    *   Imports `os` (although its use isn't apparent in the provided code).
     *   Imports `numpy` for numerical operations.
 
 2.  **Load Data:**
